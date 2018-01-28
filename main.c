@@ -32,7 +32,8 @@ int losuj_liczbe(int min, int max)
     return (rand()%((max+1)-min))+min;
 }
 
-void sortuj_samochody(char pole, char kierunek);
+void sortuj_samochody(char pole, char kierunek);//SORTOWANIE
+
 
 int main()
 {
